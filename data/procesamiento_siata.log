@@ -1,0 +1,42 @@
+============================================================
+PROCESAMIENTO DE DATOS REALES DEL SIATA
+============================================================
+
+1. Cargando datos de PM2.5...
+   Número de estaciones: 21
+
+2. Estaciones procesadas:
+   Total: 21
+
+   Primeras 5 estaciones:
+   codigo  ...   longitud
+0       3  ... -75.451141
+1      12  ... -75.569580
+2      25  ... -75.577004
+3      28  ... -75.597206
+4      31  ... -75.638626
+
+[5 rows x 5 columns]
+
+3. Mediciones procesadas:
+   Total de mediciones válidas: 160883
+   Rango de fechas: 2021-10-12 04:00:00 a 2022-10-12 04:00:00
+
+   Estadísticas de PM2.5:
+count    160883.000000
+mean        321.496240
+std        5446.851896
+min         -19.340000
+25%          10.714550
+50%          16.644500
+75%          24.000000
+max      117237.000000
+Name: pm25, dtype: float64
+
+4. Archivos guardados:
+   - estaciones_siata.csv (21 estaciones)
+   - mediciones_pm25_siata.csv (160883 mediciones)
+
+============================================================
+PROCESAMIENTO COMPLETADO
+============================================================
