@@ -37,7 +37,7 @@ pagina = st.sidebar.radio(
 def cargar_datos():
     try:
         estaciones = pd.read_csv('data/estaciones_siata_con_municipio.csv')
-        mediciones = pd.read_csv('data/mediciones_pm25_siata.csv')
+        mediciones = pd.read_csv('data/mediciones_pm25_siata_optimizado.csv')
         mediciones['fecha'] = pd.to_datetime(mediciones['fecha'])
         salud = pd.read_csv('data/salud_valle_aburra_procesado.csv')
         resumen_salud = pd.read_csv('data/resumen_salud_municipios.csv')
